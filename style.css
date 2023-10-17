@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:wght@300&family=Poppins:wght@200;300;400&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto" sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #575757;
+}
+
+.card {
+  width: 350px;
+  height: 20vh;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.bar {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  border-radius: 24px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#input-bar {
+  flex: 2;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#copy-btn {
+  flex: 1;
+  background-color: navy;
+  color: aliceblue;
+  cursor: pointer;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: none;
+}
+
+#copy-btn:hover {
+  background-color: rgba(0, 0, 128, 0.811);
+  color: antiquewhite;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #eee;
+  border-radius: 0 0 16px 16px;
+  gap: 0.3rem;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin: 0 10px;
+}
+
+label {
+  color: #333;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+input[type="checkbox"] {
+  margin: 0 5px;
+}
